@@ -2,7 +2,7 @@
 
 # Dryland PV vs. afforestation
 
-Code and data related to our article on dryland PV and afforestation.
+Code and data related to our article on dryland PV and afforestation. Blablabla
 
 ## How to Cite
 
