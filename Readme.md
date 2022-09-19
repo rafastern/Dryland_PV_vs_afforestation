@@ -24,5 +24,5 @@ Rafael Stern; Muller, Jonathan D.; Tatarinov, Fyodor; Amer, Madi; Segev, Lior; R
 
 ## License
 
-This software is distributed under the GNU GPL version 3
+This software and data is distributed under the GNU GPL version 3
 
