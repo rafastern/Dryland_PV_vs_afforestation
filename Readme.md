@@ -20,7 +20,7 @@ The following python packages are required to run the code
 
 ## How to Cite
 
-Rafael Stern; Muller, Jonathan D.; Tatarinov, Fyodor; Amer, Madi; Segev, Lior; Rotenberg, Eyal and Yakir, Dan (2022). Climate change mitigation through photovoltaic fields or forest plantations in drylands. DOI: XXX/XXXXXXX
+Rafael Stern; Muller, Jonathan D.; Amer, Madi; Segev, Lior; Rotenberg, Eyal and Yakir, Dan (2022). Climate change mitigation through photovoltaic fields or forest plantations in drylands. DOI: XXX/XXXXXXX
 
 ## License
 
