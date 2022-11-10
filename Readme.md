@@ -31,5 +31,5 @@ Rafael Stern; Muller, Jonathan D.; Amer, Madi; Segev, Lior; Rotenberg, Eyal and 
 
 ## License
 
-This software and data is distributed under the GNU GPL version 3
+This software and data is distributed under the GNU GPL version 3. The license file is provided in the repository. Note that all modifications must be made available openly under the same license.
 
