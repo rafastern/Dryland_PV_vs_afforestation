@@ -1,0 +1,83 @@
+---
+# Configuration file for reflectance conversion pipeline
+# Programmer: Lior Segev, contact: lior.segev@weizmann.ac.il
+# First edited: 17 July 2019
+
+version: "0.0.2"
+
+# root of all projects
+# Lior's computer folders
+root_folder: 'C:/Users/liors.WISMAIN/Dropbox (Weizmann Institute)/Clients/Raphael/test_dir/multispec/'
+#root_folder: 'D:/Rafael/20181031 Ketura/Testing_dir/'
+#root_folder: 'C:/Users/rafas/Downloads/data/Comparison/'
+model_def_folder: 'C:/Users/liors.WISMAIN/Dropbox (Weizmann Institute)/Clients/Raphael/rep_images/training/2d_cell_net_v0-rafael-7-images.modeldef.h5'
+model_folder: 'C:/Users/liors.WISMAIN/Dropbox (Weizmann Institute)/Clients/Raphael/rep_images/training/unet-f7278141-1584-46e1-9ffb-506786ba31c3-snapshot_iter_4000.caffemodel.h5'
+
+# Rafael's computer folders
+#root_folder: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/July 2019/Ketura July 2019 drone/Analyzed/'
+#root_folder: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/October 2018/multispec/'
+#root_folder: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/July 2019/Ketura July 2019 drone/thermal_test/'
+#model_def_folder: 'D:/Users/Rafaels/Documents/GitHub/reflectance_calibration_for_drone_dan_yakir/unet/thermal/models/Thermal-4000_model_def.h5'
+#model_folder: 'D:/Users/Rafaels/Documents/GitHub/reflectance_calibration_for_drone_dan_yakir/unet/thermal/models/unet-f8ce486a-6a41-466c-bd28-f288b98a846e-snapshot_iter_4000.caffemodel.h5'
+#model_def_folder: 'D:/Users/Rafaels/Documents/GitHub/2d_cell_net_v0-rafael-7-images.modeldef.h5'
+#model_folder: 'D:/Users/Rafaels/Documents/GitHub/unet-f7278141-1584-46e1-9ffb-506786ba31c3-snapshot_iter_4000.caffemodel.h5'
+
+# Thermal analysis settings Lior's computer
+# root_thermal_2019_folder: 'C:/Users/liors.WISMAIN/Dropbox (Weizmann Institute)/Clients/Raphael/thermal/2019/test_dir/'
+# UNET weights for thermal images
+#model_def_2019_thermal_folder: 'D:/github/Reflectance_Calibration_For_Drone_Dan_Yakir/unet/thermal/2019/model/thermal2019.modeldef.h5'
+#model_2019_thermal_folder: 'D:/github/Reflectance_Calibration_For_Drone_Dan_Yakir/unet/thermal/2019/model/thermal2019-1500.caffemodel.h5'
+#Ketura_2019_July_measurements: 'C:/Users/liors.WISMAIN/Dropbox (Weizmann Institute)/Clients/Raphael/thermal/2019/meta_data_for_flights_measurments/Ketura_solar_field_July2019.csv'
+
+# Thermal analysis settings Rafael's computer
+# 2019 thermal dataset
+root_thermal_2019_folder: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/July 2019/Ketura July 2019 drone/thermal/'
+#root_thermal_2019_folder: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/July 2019/Ketura July 2019 drone/test1/'
+# UNET weights for thermal images
+model_def_2019_thermal_folder: 'D:/Users/Rafaels/Documents/GitHub/reflectance_calibration_for_drone_dan_yakir/unet/thermal/2019/model/thermal2019.modeldef.h5'
+model_2019_thermal_folder: 'D:/Users/Rafaels/Documents/GitHub/reflectance_calibration_for_drone_dan_yakir/unet/thermal/2019/model/thermal2019-1500.caffemodel.h5'
+Ketura_2019_July_measurements: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/July 2019/Ketura July 2019 drone/Ketura_solar_field_July2019.csv'
+objects_2019: [{"type": "panel", "seg_ID": 1, "emissivity": 0.83}, {"type": "shadow", "seg_ID": 2, "emissivity": 0.89},{"type": "soil", "seg_ID": 3, "emissivity": 0.89} ]
+
+# 2018 thermal dataset
+root_thermal_2018_folder: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/October 2018/2018 thermal images/thermal/Solar Panels flights/'
+# UNET weights for thermal images
+model_def_2018_thermal_folder: 'D:/Users/Rafaels/Documents/GitHub/reflectance_calibration_for_drone_dan_yakir/unet/thermal/2018/model/thermal2018-1500.modeldef.h5'
+model_2018_thermal_folder: 'D:/Users/Rafaels/Documents/GitHub/reflectance_calibration_for_drone_dan_yakir/unet/thermal/2018/model/thermal2018-1500.caffemodel.h5'
+Ketura_2018_October_measurements: 'Z:/Home/GROUP MEMBERS/Rafael/Analyses/Ketura Solar/Drone/October 2018/2018 thermal images/thermal/Ketura_solar_field_October2018.csv'
+objects_2018: [{"type": "panel", "seg_ID": 3, "emissivity": 0.83}, {"type": "shadow", "seg_ID": 1, "emissivity": 0.89},{"type": "soil", "seg_ID": 2, "emissivity": 0.89}, {"type": "sun", "seg_ID": 4, "emissivity": 1} ]
+
+# UNET liors GPU server details
+#user_name: 'liors' # 'dan1'
+#IP: '132.77.124.77' # '132.77.34.146'
+#port: '2222' # '2222'
+#path: '/home/liors/data/integration' # '/home/dan1/data/integration'
+#gpu: '0' # '0'
+
+# UNET Rafaels GPU server details
+user_name: 'dan1' # 'dan1'
+IP: '132.77.34.146' # '132.77.34.146'
+port: '2222' # '2222'
+path: '/home/dan1/data/integration' # '/home/dan1/data/integration'
+gpu: '0' # '0'
+
+# parameters for finding best exposure
+saturated_exposure_value: 65472
+channels: ['GRE', 'NIR', 'RED', 'REG']
+
+# parameters for calibration square algorithm
+template_img_dir_name: "./templateImage/template3.tif"
+MIN_MATCH_COUNT: 5 # minimum number of finds to assert that we have found the calibratoin square in the image
+square_coord_in_template: [ [106,404],[106,895],[655,895],[655, 404] ]
+
+# absolute reflectance data for the four channels
+#['GRE','NIR','RED', 'REG']
+GRE: 0.177
+NIR: 0.372
+RED: 0.215
+REG: 0.268
+
+# Seqouia related configuration
+exiftoolPath: 'C:/exiftool/exiftool.exe'
+#exiftoolPath: '/home/liors/Image-ExifTool-10.98/exiftool'
+#exiftoolPath: 'exiftool'
