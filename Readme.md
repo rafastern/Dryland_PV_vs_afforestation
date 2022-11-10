@@ -4,7 +4,7 @@
 
 Code and data related to our article on dryland PV and afforestation (see citation below). The repository is organised as follows:
 
-  - Code: Contains subfolders for 4 main parts, with calculations of:
+  - Codes: Contains subfolders for 4 main parts, with calculations of:
     1) Calibration of UAV radiation measurements to the Eddy Covariance system mast
 	2) Sensible heat flux and aerodynamic resistance
     3) The break-even time (BET) for our forest and PV sites
