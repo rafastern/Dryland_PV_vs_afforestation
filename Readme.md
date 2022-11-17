@@ -44,7 +44,9 @@ Data is provided for the Ketura and Yatir sites. For the two additional climate 
 
 Rafael Stern; Muller, Jonathan D.; Amer, Madi; Segev, Lior; Rotenberg, Eyal and Yakir, Dan (2022). Dryland photovoltaic fields outperform afforestation in climate mitigation. DOI: XXX/XXXXXXX
 
-## License
+## Copyright & License
 
-This software and data is distributed under the GNU GPL version 3. The license file is provided in the repository. Note that all modifications must be made available openly under the same license.
+(c) 2022 Rafael Stern & Jonathan D. Müller
+
+This software and data is distributed under the GNU GPL version 3. The license file is provided in the repository. All modifications must be made available openly under the same license, and code based on the present repository cannot be used commercially. Please contact the authors for requests on license changes.
 
