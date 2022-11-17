@@ -46,7 +46,7 @@ Rafael Stern; Muller, Jonathan D.; Amer, Madi; Segev, Lior; Rotenberg, Eyal and 
 
 ## Copyright & License
 
-(c) 2022 Rafael Stern & Jonathan D. Müller
+© 2022 Rafael Stern & Jonathan D. Müller
 
-This software and data is distributed under the GNU GPL version 3. The license file is provided in the repository. All modifications must be made available openly under the same license. Please contact the authors for requests on license changes.
+This software and data is distributed under the GNU GPL version 3. The license file is provided in the repository. All modifications or copies must be made available openly under the same license. Please contact the authors for requests on license changes.
 
