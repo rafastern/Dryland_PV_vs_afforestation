@@ -31,10 +31,10 @@ The following python packages are required to run the code
 
 The code is organised in 4 subcategories:
 
-  - **01_UAV_radiation_calibration:** Calibration scripts for UAV data based on ground-based data from Mobile Lab EC measurements
-  - **02_Sensible_heat_and_resistance:** Calculations of sensible heat flux and aerodynamic resistance
-  - **03_Break_even_time:** Break-even time calculation for the Ketura and Yatir sites
-  - **04_Additional_climate_zones:** Calculation of break-even time for 2 additional climate zones. Note that the Euroflux and Fluxnet data is not provided in the current repository as it is available from those networks. Please request it from the site maintainers there.
+  - ***01_UAV_radiation_calibration:*** Calibration scripts for UAV data based on ground-based data from Mobile Lab EC measurements
+  - ***02_Sensible_heat_and_resistance:*** Calculations of sensible heat flux and aerodynamic resistance
+  - ***03_Break_even_time:*** Break-even time calculation for the Ketura and Yatir sites
+  - ***04_Additional_climate_zones:*** Calculation of break-even time for 2 additional climate zones. Note that the Euroflux and Fluxnet data is not provided in the current repository as it is available from those networks. Please request it from the site maintainers there.
   
 ## Data availability
 
