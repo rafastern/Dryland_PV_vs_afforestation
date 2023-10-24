@@ -2,7 +2,7 @@
 
 # Dryland PV vs. afforestation
 
-Code and data related to our article on dryland PV and afforestation (see citation below). The repository is organised as follows:
+Code and data related to the article on dryland PV and afforestation (see citation below). The repository is organised as follows:
 
   - Codes: Contains subfolders for 4 main parts, with calculations of:
     1) Calibration of UAV radiation measurements to the Eddy Covariance system mast
@@ -41,15 +41,15 @@ The code is organised in 4 subcategories:
   
 ## Data availability
 
-Data is provided for the Ketura and Yatir sites. For the two additional climate zones, the Euroflux (http://www.europe-fluxdata.eu/) and Fluxnet (https://fluxnet.org/) data is not provided in the current repository as it is available from those networks. Please request it from the site maintainers there.
+The data underlying this analysis are freely available from the following sources: Flux data for the sites in Israel: https://doi.org/10.34933/403d99aa-17e2-4f67-95a4-5de13681439c; GPPD database (v.1.1.0): http://datasets.wri.org/dataset/globalpowerplantdatabase; Fluxnet (https://fluxnet.org/) and Euroflux (http://www.europe-fluxdata.eu/).
 
 ## How to Cite
 
-Rafael Stern; Muller, Jonathan D.; Amer, Madi; Segev, Lior; Rotenberg, Eyal and Yakir, Dan (2022). Dryland photovoltaic fields outperform afforestation in climate mitigation. DOI: XXX/XXXXXXX
+Rafael Stern; Muller, Jonathan D.; Rotenberg, Eyal; Amer, Madi; Segev, Lior and Yakir, Dan (2023). Photovoltaic fields largely outperform afforestation efficiency in global climate-change mitigation strategies. PNAS Nexus. DOI: XXX/XXXXXXX
 
 ## Copyright & License
 
-© 2022 Rafael Stern & Jonathan D. Müller
+© 2023 Rafael Stern & Jonathan D. Müller
 
 This software and data is distributed under the GNU GPL version 3. The license file is provided in the repository. All modifications or copies must be made available openly under the same license. Please contact the authors for requests on license changes.
 
