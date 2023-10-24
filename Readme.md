@@ -2,14 +2,7 @@
 
 # Dryland PV vs. afforestation
 
-Code and data related to the article on dryland PV and afforestation (see citation below). The repository is organised as follows:
-
-  - Code: Contains subfolders for 4 main parts, with calculations of:
-    1) Calibration of UAV radiation measurements to the Eddy Covariance system mast
-	2) Sensible heat flux and aerodynamic resistance
-    3) The break-even time (BET) for our forest and PV sites
-	4) The temperate and tropical zones' BET
-  - Data: Related to subfolders 2-4 of code above
+Code related to the article on dryland PV and afforestation (see citation below).
 
 ## Code dependencies
 
@@ -27,17 +20,6 @@ The following python packages are required to run the code
 
 Some scripts use, additionally:
   - Plotnine
-  - glob
-  - re
-  
-## Code organisation
-
-The code is organised in 4 subcategories:
-
-  - ***01_UAV_radiation_calibration:*** Calibration scripts for UAV data based on ground-based data from Mobile Lab EC measurements
-  - ***02_Sensible_heat_and_resistance:*** Calculations of sensible heat flux and aerodynamic resistance
-  - ***03_Break_even_time:*** Break-even time calculation for the Ketura and Yatir sites
-  - ***04_Additional_climate_zones:*** Calculation of break-even time for 2 additional climate zones
   
 ## Data availability
 
