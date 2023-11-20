@@ -8,6 +8,10 @@ This repository contains the code related to the article ["Photovoltaic fields l
   2) **data**: Place all data from the data repositories listed below in this folder to run the code
   3) **code/Supplementary Information**: Code related to tables and figures in the supplementary information
 
+## Abstract of the article
+
+> Suppression of carbon emissions through photovoltaic (PV) energy and carbon sequestration through afforestation provide complementary climate-change mitigation (CCM) strategies. However, a quantification of the “break-even time” (BET) required to offset the warming impacts of the reduced surface reflectivity of incoming solar radiation (albedo effect) is needed, though seldom accounted for in CCM strategies. Here, we quantify the CCM potential of PV fields and afforestation, considering atmospheric carbon reductions, solar panels life cycle analysis (LCA), surface energy balance, and land area required across different climatic zones, with a focus on drylands, which offer the main remaining land area reserves for forestation aiming climate change mitigation. Results indicate a BET of PV fields of ~2.5 years, but >50× longer for dryland afforestation, even though the latter is more efficient at surface heat dissipation and local surface cooling. Furthermore, PV is ~100× more efficient in atmospheric carbon mitigation. While the relative efficiency of afforestation compared with PV fields significantly increases in more mesic climates, PV field BET is still ~20× faster than in afforestation, and land area required greatly exceeds availability for tree planting in a sufficient scale. Although this analysis focusing purely on the climatic radiative forcing perspective quantified an unambiguous advantage for the PV strategy over afforestation, both approaches must be combined and complementary, depending on climate zone, since forests provide crucial ecosystem, climate regulation and even social services.
+
 ## Data availability
 
 The data underlying this analysis are freely available from the following sources:
